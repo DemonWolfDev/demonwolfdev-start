@@ -1,0 +1,26 @@
+{
+  "name": "demonwolfdev.github.io",
+  "version": "1.0.0",
+  "description": "Just DemonWolfDev on its own github",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemonWolfDev/demonwolfdev.github.io.git"
+  },
+  "author": "DemonWolf",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/DemonWolfDev/demonwolfdev.github.io/issues"
+  },
+  "devDependencies": {
+    "browser-sync": "~2.18.8",
+    "gulp": "~3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
