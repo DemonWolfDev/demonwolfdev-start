@@ -25,54 +25,42 @@ body {
 .navbar-default {
 	background-image: none;
 	box-shadow: none;
-	background-color: #2C3E50;
-	border-bottom: none;
+	background-color: #ffffff;
+	border-color: rgba( gray, 0.75);
+
+}
+.navbar-fixed {
+   border-width: 0 0 2px;
 }
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	padding-left: 2em;
-	>img {
+	img {
 		height: 30px;
 		margin-bottom: 1em;
 	}
 }
 .navbar-default .navbar-nav > li > a {
-	color: #ffffff;
+	color: $brand-color;
 	transition: 0.2s;
 	&:hover, &:focus {
 		background-color: darken(#fff,75%);
 		color: #ffffff;
-		padding-left: 15px;
-		padding-right: 15px;
-		border-right: .5px solid #fff;
-		border-left: .5px solid #fff;
 	}
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
 	background-color: darken(#fff,75%);
 	color: #ffffff;
-	padding-left: 15px;
-	padding-right: 15px;
-	border-right: .5px solid #fff;
-	border-left: .5px solid #fff;
 }
 .dropdown-menu>li a {
 	color: #000000;
 	transition: 0.0s;
 	&:hover {
 		color: #000000;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		border-right: none;
-		border-left: none;
 	}
 }
 .navbar-default li a.active_page {
-	color: #fff;
+	color:#ffffff;
 	background-color: darken(#fff,75%);
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border-right: none;
-	border-left: none;
 }
 @media all and (max-width: 767px){
 	.navbar-default li a.active_page {
@@ -84,19 +72,11 @@ body {
 	&:hover, &:focus {
 		background-color: darken(#fff,75%);
 		color: #ffffff;
-		padding-left: 8px;
-		padding-right: 8px;
-		border-right: .5px solid #fff;
-		border-left: .5px solid #fff;
 	}
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
 	background-color: darken(#fff,75%);
 	color: #ffffff;
-	padding-left: 8px;
-	padding-right: 8px;
-	border-right: .5px solid #fff;
-	border-left: .5px solid #fff;
 }
 	}
 }
@@ -104,17 +84,20 @@ body {
 	padding-left: 10px;
 }
 .navbar-default .navbar-toggle {
-	border-color: #ffffff;
+	border-color: #000000;
 	background-color: none;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	&:hover , &:focus , &:active{
-		background-color: #535353;
+		background-color: darken(#ffffff ,25%);
 }
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #ffffff;
+	background-color: #000000;
+		&:focus {
+		background-color: #ffffff;
+}
 }
 // Remove the text decorationon hover
 .a:hover{
@@ -244,6 +227,9 @@ body {
 .subscribe_jumbotron {
 	display: flex;
 	align-items: center;
+}
+.page-content-top {
+	padding-top: 60px;
 }
 .page-header_center {
 	text-align: center;

@@ -16,36 +16,40 @@ body { margin-bottom: 60px; }
 
 .container-spaceing { padding-top: 15px; padding-bottom: 15px; }
 
-.navbar-default { background-image: none; box-shadow: none; background-color: #2C3E50; border-bottom: none; }
+.navbar-default { background-image: none; box-shadow: none; background-color: #ffffff; border-color: rgba(128, 128, 128, 0.75); }
+
+.navbar-fixed { border-width: 0 0 2px; }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { padding-left: 2em; }
 
-.navbar-default .navbar-brand > img, .navbar-default .navbar-brand:hover > img, .navbar-default .navbar-brand:focus > img { height: 30px; margin-bottom: 1em; }
+.navbar-default .navbar-brand img, .navbar-default .navbar-brand:hover img, .navbar-default .navbar-brand:focus img { height: 30px; margin-bottom: 1em; }
 
-.navbar-default .navbar-nav > li > a { color: #ffffff; transition: 0.2s; }
+.navbar-default .navbar-nav > li > a { color: #050240; transition: 0.2s; }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { background-color: #404040; color: #ffffff; padding-left: 15px; padding-right: 15px; border-right: .5px solid #fff; border-left: .5px solid #fff; }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { background-color: #404040; color: #ffffff; }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover { background-color: #404040; color: #ffffff; padding-left: 15px; padding-right: 15px; border-right: .5px solid #fff; border-left: .5px solid #fff; }
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover { background-color: #404040; color: #ffffff; }
 
 .dropdown-menu > li a { color: #000000; transition: 0.0s; }
 
-.dropdown-menu > li a:hover { color: #000000; padding-top: 15px; padding-bottom: 15px; border-right: none; border-left: none; }
+.dropdown-menu > li a:hover { color: #000000; }
 
-.navbar-default li a.active_page { color: #fff; background-color: #404040; padding-top: 15px; padding-bottom: 15px; border-right: none; border-left: none; }
+.navbar-default li a.active_page { color: #ffffff; background-color: #404040; }
 
 @media all and (max-width: 767px) { .navbar-default li a.active_page { padding-top: 8px; padding-bottom: 8px; }
   .navbar-default li a.active_page .navbar-default .navbar-nav > li > a { color: #ffffff; transition: 0.2s; }
-  .navbar-default li a.active_page .navbar-default .navbar-nav > li > a:hover, .navbar-default li a.active_page .navbar-default .navbar-nav > li > a:focus { background-color: #404040; color: #ffffff; padding-left: 8px; padding-right: 8px; border-right: .5px solid #fff; border-left: .5px solid #fff; }
-  .navbar-default li a.active_page .navbar-default .navbar-nav > .open > a, .navbar-default li a.active_page .navbar-default .navbar-nav > .open > a:focus, .navbar-default li a.active_page .navbar-default .navbar-nav > .open > a:hover { background-color: #404040; color: #ffffff; padding-left: 8px; padding-right: 8px; border-right: .5px solid #fff; border-left: .5px solid #fff; } }
+  .navbar-default li a.active_page .navbar-default .navbar-nav > li > a:hover, .navbar-default li a.active_page .navbar-default .navbar-nav > li > a:focus { background-color: #404040; color: #ffffff; }
+  .navbar-default li a.active_page .navbar-default .navbar-nav > .open > a, .navbar-default li a.active_page .navbar-default .navbar-nav > .open > a:focus, .navbar-default li a.active_page .navbar-default .navbar-nav > .open > a:hover { background-color: #404040; color: #ffffff; } }
 
 .login-signin-buttons { padding-left: 10px; }
 
-.navbar-default .navbar-toggle { border-color: #ffffff; background-color: none; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; }
+.navbar-default .navbar-toggle { border-color: #000000; background-color: none; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active { background-color: #535353; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active { background-color: #bfbfbf; }
 
-.navbar-default .navbar-toggle .icon-bar { background-color: #ffffff; }
+.navbar-default .navbar-toggle .icon-bar { background-color: #000000; }
+
+.navbar-default .navbar-toggle .icon-bar:focus { background-color: #ffffff; }
 
 .a:hover { color: #337ab7; text-decoration: none; }
 
@@ -91,6 +95,8 @@ body { margin-bottom: 60px; }
 .jumbotron_home { padding-top: 50px; padding-left: 50px; }
 
 .subscribe_jumbotron { display: flex; align-items: center; }
+
+.page-content-top { padding-top: 60px; }
 
 .page-header_center { text-align: center; }
 
