@@ -15,19 +15,6 @@ body {
 	margin-bottom: 60px;
     background: #858585;
 }
-.start-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.container-spaceing {
-	padding-top: 15px;
-	padding-bottom: 15px}
-.container {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
 // Start 
 .list {
 		
@@ -81,8 +68,14 @@ h1 {
 	background: #2d2d2d;
 }
 .list ul li a {
+	color: #fff;
+	text-decoration: none;
 	padding-left: 15px;
 	display: block;
+	 &:hover {
+		 text-decoration: none;
+		 color: #fff;
+	 }
 }
 .list ul li:nth-child(2n) {
 	background: #333;
@@ -109,6 +102,7 @@ h1 {
 		margin: 0px 5px;
 	}
 }
+// Logo
 .logo {
     margin: 10px auto 10px;
 	    height: 50px;
@@ -141,6 +135,19 @@ h1 {
 		display: flex;
 	align-items: center;
 }
+.start-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-spaceing {
+	padding-top: 15px;
+	padding-bottom: 15px}
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+// Logo with Search
 .logo_search {
 	display: flex;
 	align-items: center;

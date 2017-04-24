@@ -12,12 +12,6 @@ html { position: relative; min-height: 100%; }
 
 body { margin-bottom: 60px; background: #858585; }
 
-.start-content { display: flex; flex-wrap: wrap; justify-content: center; }
-
-.container-spaceing { padding-top: 15px; padding-bottom: 15px; }
-
-.container { padding-left: 0px; padding-right: 0px; }
-
 .list { width: 350px; flex: 1 250px; margin: 5px 8px; box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); }
 
 .list h1 { position: relative; background: #af0000; color: #eee; margin: 0; padding: 10px 20px; font-size: 18px; font-weight: 400; }
@@ -42,7 +36,9 @@ body { margin-bottom: 60px; background: #858585; }
 
 .list ul li:hover, .list ul li:nth-child(2n):hover { background: #2d2d2d; }
 
-.list ul li a { padding-left: 15px; display: block; }
+.list ul li a { color: #fff; text-decoration: none; padding-left: 15px; display: block; }
+
+.list ul li a:hover { text-decoration: none; color: #fff; }
 
 .list ul li:nth-child(2n) { background: #333; }
 
@@ -63,6 +59,12 @@ body { margin-bottom: 60px; background: #858585; }
 .col-center { margin: 0 auto; float: none; }
 
 .col-flex-center { display: flex; align-items: center; }
+
+.start-content { display: flex; flex-wrap: wrap; justify-content: center; }
+
+.container-spaceing { padding-top: 15px; padding-bottom: 15px; }
+
+.container { padding-left: 0px; padding-right: 0px; }
 
 .logo_search { display: flex; align-items: center; }
 
