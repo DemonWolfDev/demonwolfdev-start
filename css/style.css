@@ -10,54 +10,63 @@
 /*  golbal.scss */
 html { position: relative; min-height: 100%; }
 
-body { margin-bottom: 60px; }
+body { margin-bottom: 60px; background: #858585; }
 
-.body_content { padding-top: 60px; }
+.start-content { display: flex; flex-wrap: wrap; justify-content: center; }
 
 .container-spaceing { padding-top: 15px; padding-bottom: 15px; }
 
-.navbar-default { background-image: none; box-shadow: none; background-color: #ffffff; border-color: rgba(128, 128, 128, 0.75); }
+.container { padding-left: 0px; padding-right: 0px; }
 
-.navbar-fixed { border-width: 0 0 2px; }
+.list { width: 350px; flex: 1 250px; margin: 5px 8px; box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { padding-left: 2em; }
+.list h1 { position: relative; background: #af0000; color: #eee; margin: 0; padding: 10px 20px; font-size: 18px; font-weight: 400; }
 
-.navbar-default .navbar-brand img, .navbar-default .navbar-brand:hover img, .navbar-default .navbar-brand:focus img { height: 30px; margin-bottom: 1em; }
+.webmaster h1 { background: #FF6138; }
 
-.navbar-default .navbar-nav > li > a { color: #050240; transition: 0.2s; }
+.panels h1 { background: #47d15f; }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { background-color: #404040; color: #ffffff; }
+.social h1 { background: #1da1f2; }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover { background-color: #404040; color: #ffffff; }
+.entertainment h1 { background: #cd201f; }
 
-.dropdown-menu > li a { color: #000000; transition: 0.0s; }
+.webtools h1 { background: #ff9800; }
 
-.dropdown-menu > li a:hover { color: #000000; }
+.dev h1 { background: #225378; }
 
-.navbar-default li a.active_page { color: #ffffff; background-color: #404040; }
+.resources h1 { background: #225378; }
 
-@media all and (max-width: 767px) { .navbar-default li a.active_page { padding-top: 8px; padding-bottom: 8px; }
-  .navbar-default li a.active_page .navbar-default .navbar-nav > li > a { color: #ffffff; transition: 0.2s; }
-  .navbar-default li a.active_page .navbar-default .navbar-nav > li > a:hover, .navbar-default li a.active_page .navbar-default .navbar-nav > li > a:focus { background-color: #404040; color: #ffffff; }
-  .navbar-default li a.active_page .navbar-default .navbar-nav > .open > a, .navbar-default li a.active_page .navbar-default .navbar-nav > .open > a:focus, .navbar-default li a.active_page .navbar-default .navbar-nav > .open > a:hover { background-color: #404040; color: #ffffff; } }
+.list ul { list-style: none; margin: 0; padding: 0; }
 
-.login-signin-buttons { padding-left: 10px; }
+.list ul li { background: #444; height: 40px; color: #eee; line-height: 40px; transition: background ease-in-out 0.1s; }
 
-.navbar-default .navbar-toggle { border-color: #000000; background-color: none; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; }
+.list ul li:hover, .list ul li:nth-child(2n):hover { background: #2d2d2d; }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active { background-color: #bfbfbf; }
+.list ul li a { padding-left: 15px; display: block; }
 
-.navbar-default .navbar-toggle .icon-bar { background-color: #000000; }
+.list ul li:nth-child(2n) { background: #333; }
 
-.navbar-default .navbar-toggle .icon-bar:focus { background-color: #ffffff; }
+@media all and (max-width: 768px) { .list { max-width: 95vw; }
+  .list ul { transition: 800ms max-height ease-out; overflow: hidden; max-height: 0px; transition-delay: 0.5s; }
+  .list:hover > ul, .list:hover ul li { max-height: 800px; display: block; }
+  .list ul li { display: none; }
+  .list { margin: 0px 5px; } }
 
-.a:hover { color: #337ab7; text-decoration: none; }
+.logo { margin: 10px auto 10px; height: 50px; transition: opacity ease-in-out 0.5s; opacity: 0.9; float: left; }
 
-.button-cta { color: #fff; background-color: #2c3e50; border-color: #000000; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; }
+@media (max-width: 991px) { .logo { max-width: 100%; height: 40px; display: flex; } }
 
-.button-cta:hover, .button-cta:focus, .button-cta:active { color: #fff; background: #1a252f; }
+.search-box { width: 500px; }
 
-.post_text { font-size: 1.15em; line-height: 2em; }
+@media all and (max-width: 991px) { .search-box { width: 75vh; } }
+
+.col-center { margin: 0 auto; float: none; }
+
+.col-flex-center { display: flex; align-items: center; }
+
+.logo_search { display: flex; align-items: center; }
+
+@media all and (max-width: 991px) { .logo_search { display: block; margin: 0 auto; } }
 
 .footer { position: fixed; bottom: 0; left: 0; right: 0; background-color: #f5f5f5; }
 
@@ -70,7 +79,7 @@ body { margin-bottom: 60px; }
 .footer-social { text-align: right; font-size: 1.5em; }
 
 @media all and (max-width: 991px) { .footer-copyright, .footer-social { text-align: center; }
-  span { display: none; } }
+  .footer-copyright span { display: none; } }
 
 #return-to-top { position: fixed; bottom: 20px; right: 0px; background: black; background: rgba(0, 0, 0, 0.7); width: 35px; height: 35px; display: block; text-decoration: none; display: none; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -79,22 +88,6 @@ body { margin-bottom: 60px; }
 #return-to-top i { color: #fff; margin: 0; position: relative; left: 12px; top: 8px; font-size: 20px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 #return-to-top i:hover { color: #fff; top: 5px; }
-
-.jumbotron_bacground_home { background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url("https://www.demonwolfdev.com/wp-content/uploads/2017/03/Slider.jpg") center center; width: 100%; height: 100%; background-size: cover; overflow: hidden; position: absolute; top: 0; left: 0; }
-
-.jumbotron { position: relative; }
-
-.jumbotron .container { position: relative; }
-
-.jumbotron_full { height: 60vh; overflow: hidden; }
-
-.jumbotron_home_header { color: #fff !important; }
-
-.jumbotron_home_text { color: #fff !important; }
-
-.jumbotron_home { padding-top: 50px; padding-left: 50px; }
-
-.subscribe_jumbotron { display: flex; align-items: center; }
 
 .page-content-top { padding-top: 60px; }
 
