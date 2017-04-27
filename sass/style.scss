@@ -34,9 +34,6 @@ h1 {
 .webmaster h1 {
 	background: #FF6138;
 }
-.panels h1 {
-	background: #47d15f;
-}
 .social h1 {
 	background: #1da1f2;
 }
@@ -48,6 +45,12 @@ h1 {
 }
 .resources h1 {
 	background: #225378;
+}
+.services h1 {
+	background: #1a1967;
+}
+.github h1 {
+	background: #009926;
 }
 .list ul {
 	list-style: none;
@@ -120,9 +123,15 @@ h1 {
 }
 @media all and (max-width: 991px){
 	.search-box {
-		width: 75vh;
+		width: 50vh;
 	}
 }
+.form-control:focus {
+	border-color: #ccc;
+    box-shadow: inset 0 1px 1px rgba(#000,.075), 0 0 8px rgba(#050240,.6);
+	-webkit-box-shadow: inset 0 1px 1px rgba(#000,.075), 0 0 8px rgba(#050240,.6);
+}
+
 // Custom Cols
 .col-center {
 	    margin: 0 auto;
