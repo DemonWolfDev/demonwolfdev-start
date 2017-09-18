@@ -3,10 +3,8 @@
 
 title: MrDemonWolf
 name: MrDemonWolf
-description: test
-email: demonwolf@demonwolfdev.com
-#url: https://start.mrdemonwolf.me
-url: http://localhost:3000  #Dev URL
+url: https://start.mrdemonwolf.me
+#url: http://localhost:3000  #Dev URL
 
 #-------------------------------
 # SEO Section
