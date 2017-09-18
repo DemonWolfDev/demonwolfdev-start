@@ -57,6 +57,7 @@ webtools:
 - {name: 'Optimizilla', url: 'http://optimizilla.com/'}
 - {name: 'Dans Tools', url: 'http://www.danstools.com/'}
 - {name: 'Corporate Ipsum', url: 'http://www.cipsum.com/'}
+- {name: 'CDN JS', url: 'https://cdnjs.com/'}
 
 github: 
 - {name: 'MrDemonWolf Github', url: 'https://www.github.com/mrdemonwolf/'}
