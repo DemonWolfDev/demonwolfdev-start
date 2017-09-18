@@ -38,31 +38,31 @@ webmaster:
 
 services: 
 - {name: 'Vultr', url: 'http://www.vultr.com/?ref=7093526'}
-- {name: 'Veesp', url: 'https://www.logicweb.com/'}
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test2', url: 'https://example.com'}
+- {name: 'Logicweb', url: 'https://www.logicweb.com/'}
+- {name: 'Veesp', url: 'https://veesp.com/'}
+- {name: 'Cloud at Cost', url: 'https://panel.cloudatcost.com/login.php'}
 
 resources: 
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test2', url: 'https://example.com'}
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test', url: 'https://example.com'}
+- {name: 'Ask Ubuntu', url: 'https://askubuntu.com/'}
+- {name: 'Digitalocean Tutorials', url: 'https://www.digitalocean.com/community/tutorials/'}
+- {name: 'Stackoverflow', url: 'https://stackoverflow.com/'}
+- {name: 'Makerbook', url: 'https://makerbook.net/'}
+- {name: 'Resource Cards', url: 'https://resourcecards.com/'}
 
 webtools: 
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test2', url: 'https://example.com'}
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test2', url: 'https://example.com'}
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test', url: 'https://example.com'}
+- {name: 'Adobe.CC', url: 'https://example.com'}
+- {name: 'LOL Colors', url: 'https://example.com'}
+- {name: 'CSS Matic', url: 'https://example.com'}
+- {name: 'Contrast Checker', url: 'https://example.com'}
+- {name: 'Dirtymarkup', url: 'https://example.com'}
+- {name: 'Font Awesome', url: 'https://example.com'}
+- {name: 'Optimizilla', url: 'https://example.com'}
+- {name: 'Dans Tools', url: 'https://example.com'}
+- {name: 'Corporate Ipsum', url: 'https://example.com'}
 
 github: 
-- {name: 'Test', url: 'https://example.com'}
-- {name: 'Test2', url: 'https://example.com'}
+- {name: 'DemonWolf's Github', url: 'https://github.com/mrdemonwolf/'}
+- {name: 'DemonWolfDevs's Github', url: 'https://github.com/demonwolfdev/'}
 
 #-------------------------------
 search: https://www.google.com/search
