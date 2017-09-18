@@ -61,8 +61,8 @@ webtools:
 - {name: 'Corporate Ipsum', url: 'https://example.com'}
 
 github: 
-- {name: 'DemonWolf's Github', url: 'https://github.com/mrdemonwolf/'}
-- {name: 'DemonWolfDevs's Github', url: 'https://github.com/demonwolfdev/'}
+- {name: 'MrDemonWolf Github', url: 'https://github.com/mrdemonwolf/'}
+- {name: 'DemonWolfDev Github', url: 'https://github.com/demonwolfdev/'}
 
 #-------------------------------
 search: https://www.google.com/search
