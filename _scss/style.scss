@@ -3,6 +3,8 @@
 @import "_partials/typography";
 @import "_partials/variables";
 @import "_component/links";
+@import "_component/logo";
+@import "_component/serach";
 
 /*  golbal.scss */
 html {
@@ -12,40 +14,6 @@ html {
 body {
 	margin-bottom: 60px;
     background: #5d5d5d;
-}
-// Logo
-.logo {
-    margin: 10px auto 10px;
-	height: 50px;
-    transition: opacity ease-in-out 0.5s;
-    opacity: 0.9;
-	float: left;
-}
-@media (max-width: 991px) {
-.logo {
-    max-width: 100%;
-    height: 40px;
-	display: flex;
-	}
-}
-// Serach box 
-.search-box {
-	width: 500px;
-}
-@media all and (max-width: 991px){
-	.search-box {
-		width: 75vh;
-	}
-}
-@media all and (max-width: 388px){
-	.search-box {
-		width: 100%;
-	}
-}
-.form-control:focus {
-	border-color: #ccc;
-    box-shadow: inset 0 1px 1px rgba(#000,.075), 0 0 8px rgba(#050240,.6);
-	-webkit-box-shadow: inset 0 1px 1px rgba(#000,.075), 0 0 8px rgba(#050240,.6);
 }
 
 // Custom Cols

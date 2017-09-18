@@ -1,0 +1,19 @@
+/* search.scss */
+.search-box {
+	width: 500px;
+}
+@media all and (max-width: 991px){
+	.search-box {
+		width: 75vh;
+	}
+}
+@media all and (max-width: 388px){
+	.search-box {
+		width: 100%;
+	}
+}
+.form-control:focus {
+	border-color: #ccc;
+    box-shadow: inset 0 1px 1px rgba(#000,.075), 0 0 8px rgba(#050240,.6);
+	-webkit-box-shadow: inset 0 1px 1px rgba(#000,.075), 0 0 8px rgba(#050240,.6);
+}
