@@ -1,0 +1,32 @@
+#-------------------------------
+# General Site Settings
+
+title: MrDemonWolf
+name: MrDemonWolf
+description: test
+email: demonwolf@demonwolfdev.com
+#url: https://start.mrdemonwolf.me
+url: http://localhost:3000  #Dev URL
+
+#-------------------------------
+# SEO Section
+
+seo:
+  twitter-creator: 'https://www.twitter.com/mrdemonwolf'
+  twitter-site: 'https://www.twitter.com/mrdemonwolf'
+  type: 'website'
+
+#-------------------------------
+# Google Analytics Section
+
+google-analytics-ua: UA-xxxx-xx
+
+#-------------------------------
+# Link Section
+
+panel: Panel Test
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test2', url: 'https://example.com'}
+
+#-------------------------------
+search: https://www.google.com/search
