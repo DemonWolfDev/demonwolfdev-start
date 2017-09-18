@@ -24,7 +24,43 @@ google-analytics-ua: UA-xxxx-xx
 #-------------------------------
 # Link Section
 
-panel: Panel Test
+sites: 
+- {name: 'Freelancing', url: 'https://www.mrdemonwolf.me/'}
+- {name: 'Community', url: 'https://www.demonwolfdev.com/'}
+- {name: 'Community Assets', url: 'https://assets.demonwolfdev.com/'}
+
+webmaster: 
+- {name: 'Namecheap', url: 'https://www.namecheap.com/'}
+- {name: 'Cloudflare', url: 'https://www.cloudflare.com/'}
+- {name: 'Let’s Encrypt', url: 'https://letsencrypt.org/'}
+- {name: 'Google Analytics', url: 'https://analytics.google.com/analytics/web/'}
+- {name: 'Google Web master', url: 'https://www.google.com/webmasters/tools/home/'}
+
+services: 
+- {name: 'Vultr', url: 'http://www.vultr.com/?ref=7093526'}
+- {name: 'Veesp', url: 'https://www.logicweb.com/'}
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test2', url: 'https://example.com'}
+
+resources: 
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test2', url: 'https://example.com'}
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test', url: 'https://example.com'}
+
+webtools: 
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test2', url: 'https://example.com'}
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test2', url: 'https://example.com'}
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test', url: 'https://example.com'}
+- {name: 'Test', url: 'https://example.com'}
+
+github: 
 - {name: 'Test', url: 'https://example.com'}
 - {name: 'Test2', url: 'https://example.com'}
 

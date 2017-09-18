@@ -8,7 +8,7 @@
                     <li>
                         <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>
-                </ul>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
@@ -16,21 +16,11 @@
             <div class="list webmaster">
                 <h1>Webmaster</h1>
                 <ul>
+                    {% for item in site.data.settings.webmaster %}
                     <li>
-                        <a href="https://www.namecheap.com/">Namecheap</a>
+                        <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>
-                    <li>
-                        <a href="https://www.cloudflare.com/">Cloudflare</a>
-                    </li>
-                    <li>
-                        <a href="https://letsencrypt.org/">Let’s Encrypt</a>
-                    </li>
-                    <li>
-                        <a href="https://analytics.google.com/analytics/web/">Google Analytics</a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.com/webmasters/tools/home">Google Web master</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
@@ -38,18 +28,11 @@
             <div class="list services">
                 <h1>Services</h1>
                 <ul>
+                    {% for item in site.data.settings.services %}
                     <li>
-                        <a href="http://www.vultr.com/?ref=7093526">Vultr</a>
+                        <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>
-                    <li>
-                        <a href="https://www.logicweb.com/">LogicWeb</a>
-                    </li>
-                    <li>
-                        <a href="https://veesp.com/en./">Veesp</a>
-                    </li>
-                    <li>
-                        <a href="https://panel.cloudatcost.com/login.php">Cloud At Cost</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
@@ -57,21 +40,11 @@
             <div class="list resources">
                 <h1>Helpfull resources</h1>
                 <ul>
+                    {% for item in site.data.settings.resources %}
                     <li>
-                        <a href="http://askubuntu.com/">Ask Ubuntu</a>
+                        <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>
-                    <li>
-                        <a href="https://www.digitalocean.com/community/tutorials/">Digitalocean Tutorials</a>
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/">Stackoverflow</a>
-                    </li>
-                    <li>
-                        <a href="http://makerbook.net">Makerbook</a>
-                    </li>
-                    <li>
-                        <a href="https://resourcecards.com/">Resource Cards</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
@@ -79,33 +52,11 @@
             <div class="list webtools">
                 <h1>Web tools</h1>
                 <ul>
+                    {% for item in site.data.settings.webtools %}
                     <li>
-                        <a href="https://color.adobe.com/explore/most-popular/?time=all">Adobe.CC</a>
+                        <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>
-                    <li>
-                        <a href="http://www.lolcolors.com/">LOL Colors</a>
-                    </li>
-                    <li>
-                        <a href="http://www.cssmatic.com/">CSS Matic</a>
-                    </li>
-                    <li>
-                        <a href="http://webaim.org/resources/contrastchecker/">Contrast Checker</a>
-                    </li>
-                    <li>
-                        <a href="https://dirtymarkup.com/">Dirtymarkup</a>
-                    </li>
-                    <li>
-                        <a href="http://fontawesome.io/">Font Awesome</a>
-                    </li>
-                    <li>
-                        <a href="http://optimizilla.com/">Optimizilla</a>
-                    </li>
-                    <li>
-                        <a href="http://www.danstools.com/">Dans Tools</a>
-                    </li>
-                    <li>
-                        <a href="http://www.cipsum.com/">Corporate Ipsum</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
@@ -113,12 +64,11 @@
             <div class="list github">
                 <h1>Github</h1>
                 <ul>
+                    {% for item in site.data.settings.github %}
                     <li>
-                        <a href="https://github.com/mrdemonwolf">DemonWolf's Github</a>
+                        <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>
-                    <li>
-                        <a href="https://github.com/demonwolfdev">Company Github</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
