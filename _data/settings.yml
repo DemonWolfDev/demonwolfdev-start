@@ -50,19 +50,19 @@ resources:
 - {name: 'Resource Cards', url: 'https://resourcecards.com/'}
 
 webtools: 
-- {name: 'Adobe.CC', url: 'https://example.com'}
-- {name: 'LOL Colors', url: 'https://example.com'}
-- {name: 'CSS Matic', url: 'https://example.com'}
-- {name: 'Contrast Checker', url: 'https://example.com'}
-- {name: 'Dirtymarkup', url: 'https://example.com'}
-- {name: 'Font Awesome', url: 'https://example.com'}
-- {name: 'Optimizilla', url: 'https://example.com'}
-- {name: 'Dans Tools', url: 'https://example.com'}
-- {name: 'Corporate Ipsum', url: 'https://example.com'}
+- {name: 'Adobe.CC', url: 'https://color.adobe.com/explore/most-popular/?time=all'}
+- {name: 'LOL Colors', url: 'http://www.lolcolors.com/'}
+- {name: 'CSS Matic', url: 'http://www.cssmatic.com/'}
+- {name: 'Contrast Checker', url: 'http://webaim.org/resources/contrastchecker/'}
+- {name: 'Dirtymarkup', url: 'https://dirtymarkup.com/'}
+- {name: 'Font Awesome', url: 'http://fontawesome.io/'}
+- {name: 'Optimizilla', url: 'http://optimizilla.com/'}
+- {name: 'Dans Tools', url: 'http://www.danstools.com/'}
+- {name: 'Corporate Ipsum', url: 'http://www.cipsum.com/'}
 
 github: 
-- {name: 'MrDemonWolf Github', url: 'https://github.com/mrdemonwolf/'}
-- {name: 'DemonWolfDev Github', url: 'https://github.com/demonwolfdev/'}
+- {name: 'MrDemonWolf Github', url: 'https://www.github.com/mrdemonwolf/'}
+- {name: 'DemonWolfDev Github', url: 'https://www.github.com/demonwolfdev/'}
 
 #-------------------------------
 search: https://www.google.com/search
