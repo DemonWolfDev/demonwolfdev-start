@@ -22,32 +22,32 @@ google-analytics-ua: UA-xxxx-xx
 #-------------------------------
 # Link Section
 
-sites: 
-- {name: 'Freelancing', url: 'https://www.mrdemonwolf.me/'}
+sites:
+- {name: 'Freelancing', url: 'https://mrdemonwolf.me/'}
 - {name: 'Community', url: 'https://www.demonwolfdev.com/'}
 - {name: 'Community Assets', url: 'https://assets.demonwolfdev.com/'}
 
-webmaster: 
+webmaster:
 - {name: 'Namecheap', url: 'https://www.namecheap.com/'}
 - {name: 'Cloudflare', url: 'https://www.cloudflare.com/'}
 - {name: 'Let’s Encrypt', url: 'https://letsencrypt.org/'}
 - {name: 'Google Analytics', url: 'https://analytics.google.com/analytics/web/'}
 - {name: 'Google Web master', url: 'https://www.google.com/webmasters/tools/home/'}
 
-services: 
+services:
 - {name: 'Vultr', url: 'http://www.vultr.com/?ref=7093526'}
 - {name: 'Logicweb', url: 'https://www.logicweb.com/'}
 - {name: 'Veesp', url: 'https://veesp.com/'}
 - {name: 'Cloud at Cost', url: 'https://panel.cloudatcost.com/login.php'}
 
-resources: 
+resources:
 - {name: 'Ask Ubuntu', url: 'https://askubuntu.com/'}
 - {name: 'Digitalocean Tutorials', url: 'https://www.digitalocean.com/community/tutorials/'}
 - {name: 'Stackoverflow', url: 'https://stackoverflow.com/'}
 - {name: 'Makerbook', url: 'https://makerbook.net/'}
 - {name: 'Resource Cards', url: 'https://resourcecards.com/'}
 
-webtools: 
+webtools:
 - {name: 'Adobe.CC', url: 'https://color.adobe.com/explore/most-popular/?time=all'}
 - {name: 'LOL Colors', url: 'http://www.lolcolors.com/'}
 - {name: 'CSS Matic', url: 'http://www.cssmatic.com/'}
@@ -57,9 +57,14 @@ webtools:
 - {name: 'Optimizilla', url: 'http://optimizilla.com/'}
 - {name: 'Dans Tools', url: 'http://www.danstools.com/'}
 - {name: 'Corporate Ipsum', url: 'http://www.cipsum.com/'}
+<<<<<<< HEAD
 - {name: 'CDN JS', url: 'https://cdnjs.com/'}
 - {name: 'Git Simple Guide', url: 'http://rogerdudler.github.io/git-guide/'}
-github: 
+github:
+=======
+
+github:
+>>>>>>> devlop
 - {name: 'MrDemonWolf Github', url: 'https://www.github.com/mrdemonwolf/'}
 - {name: 'DemonWolfDev Github', url: 'https://www.github.com/demonwolfdev/'}
 
