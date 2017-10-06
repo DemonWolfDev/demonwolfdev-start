@@ -5,6 +5,7 @@ title: MrDemonWolf
 name: MrDemonWolf
 url: https://start.mrdemonwolf.me
 #url: http://localhost:3000  #Dev URL
+search: https://www.google.com/search
 
 #-------------------------------
 # SEO Section
@@ -13,11 +14,6 @@ seo:
   twitter-creator: 'https://www.twitter.com/mrdemonwolf'
   twitter-site: 'https://www.twitter.com/mrdemonwolf'
   type: 'website'
-
-#-------------------------------
-# Google Analytics Section
-
-google-analytics-ua: UA-xxxx-xx
 
 #-------------------------------
 # Link Section
@@ -57,16 +53,10 @@ webtools:
 - {name: 'Optimizilla', url: 'http://optimizilla.com/'}
 - {name: 'Dans Tools', url: 'http://www.danstools.com/'}
 - {name: 'Corporate Ipsum', url: 'http://www.cipsum.com/'}
-<<<<<<< HEAD
 - {name: 'CDN JS', url: 'https://cdnjs.com/'}
 - {name: 'Git Simple Guide', url: 'http://rogerdudler.github.io/git-guide/'}
 github:
-=======
-
-github:
->>>>>>> devlop
 - {name: 'MrDemonWolf Github', url: 'https://www.github.com/mrdemonwolf/'}
 - {name: 'DemonWolfDev Github', url: 'https://www.github.com/demonwolfdev/'}
 
 #-------------------------------
-search: https://www.google.com/search
