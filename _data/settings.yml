@@ -1,10 +1,7 @@
 #-------------------------------
 # General Site Settings
 
-title: MrDemonWolf
 name: MrDemonWolf
-url: https://start.mrdemonwolf.me
-#url: http://localhost:3000  #Dev URL
 search: https://www.google.com/search
 
 #-------------------------------
