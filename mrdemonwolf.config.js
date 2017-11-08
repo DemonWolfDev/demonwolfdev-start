@@ -5,7 +5,7 @@ module.exports = {
     imagemin: true,
     sass:     true,
     server:   true,
-    webpack:  false,
+    webpack:  true,
   },
 
   paths: {

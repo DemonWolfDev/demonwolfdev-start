@@ -1,7 +1,7 @@
 {
-  "name": "jekyllb-boilerplate",
+  "name": "mrdemonwolf-startpage",
   "version": "1.0.0",
-  "description": "jekyllb-boilerplato",
+  "description": "mrdemonwolf-startpage",
   "main": "gulpfile.js",
   "scripts": {
     "preinstall": "bundle install",
@@ -15,7 +15,6 @@
     "server-production": "gulp server --production"
   },
   "author": "MrDemonWolf",
-  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "browser-sync": "^2.18.13",
@@ -36,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrDemonWolf/jekyllb-boilerplate.git"
+    "url": "https://github.com/MrDemonWolf/mrdemonwolf-startpage.git"
   },
   "keywords": [
     "jekyll",
@@ -48,8 +47,8 @@
     "Webpack"
   ],
   "bugs": {
-    "url": "https://github.com/MrDemonWolf/jekyllb-boilerplate/issues"
+    "url": "https://github.com/MrDemonWolf/mrdemonwolf-startpage/issues"
   },
-  "homepage": "https://github.com/MrDemonWolf/jekyllb-boilerplate",
+  "homepage": "https://github.com/MrDemonWolf/mrdemonwolf-startpage",
   "dependencies": {}
 }
