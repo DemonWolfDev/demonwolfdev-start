@@ -1,0 +1,53 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #5d5d5d;
+}
+
+// Custom Cols
+.col-center {
+    margin: 0 auto;
+    float: none;
+}
+
+.col-flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.start-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-spaceing {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+// Logo with Search
+.logo_search {
+    display: flex;
+ 
+   align-items: center;
+}
+
+@media all and (max-width: 991px) {
+    .logo_search {
+        display: block;
+        margin: 0 auto;
+    }
+}
