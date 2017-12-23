@@ -16,9 +16,11 @@ seo:
 #-------------------------------
 # Link Section
 
-sites:
+MrDemonWolf:
 - {name: 'Freelancing', url: 'https://mrdemonwolf.me/'}
 - {name: 'Community', url: 'https://www.demonwolfdev.com/'}
+- {name: 'MrDemonWolf Github', url: 'https://www.github.com/mrdemonwolf/'}
+- {name: 'DemonWolfDev Github', url: 'https://www.github.com/demonwolfdev/'}
 # - {name: 'Community Assets', url: 'https://assets.demonwolfdev.com/'}
 
 webmaster:
@@ -40,6 +42,7 @@ resources:
 - {name: 'Stackoverflow', url: 'https://stackoverflow.com/'}
 - {name: 'Makerbook', url: 'https://makerbook.net/'}
 - {name: 'Resource Cards', url: 'https://resourcecards.com/'}
+- {name: UnDraw Illustrations, url: 'https://undraw.co/illustrations'}
 
 webtools:
 - {name: 'Adobe.CC', url: 'https://color.adobe.com/explore/most-popular/?time=all'}
@@ -55,7 +58,6 @@ webtools:
 - {name: 'Git Simple Guide', url: 'http://rogerdudler.github.io/git-guide/'}
 
 github:
-- {name: 'MrDemonWolf Github', url: 'https://www.github.com/mrdemonwolf/'}
-- {name: 'DemonWolfDev Github', url: 'https://www.github.com/demonwolfdev/'}
+- {name: Github , url: https://www.github.com/}
 
 #-------------------------------
