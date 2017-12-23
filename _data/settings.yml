@@ -58,6 +58,6 @@ webtools:
 - {name: 'Git Simple Guide', url: 'http://rogerdudler.github.io/git-guide/'}
 
 github:
-- {name: Github , url: https://www.github.com/}
+ - {name: Github , url: https://www.github.com/}
 
 #-------------------------------
