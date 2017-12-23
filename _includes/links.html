@@ -1,10 +1,10 @@
 <div class="container">
     <div class="col-md-12 start-content">
         <div class="col-sm-6 col-md-4">
-            <div class="list sites">
-                <h1>Sites</h1>
+            <div class="list mrdemonwolf">
+                <h1>MrDemonWolf</h1>
                 <ul>
-                    {% for item in site.data.settings.sites %}
+                    {% for item in site.data.settings.mrdemonwolf %}
                     <li>
                         <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>
@@ -61,10 +61,10 @@
             </div>
         </div>
         <div class="col-sm-6 col-md-4">
-            <div class="list github">
-                <h1>Github</h1>
+            <div class="list other">
+                <h1>Other</h1>
                 <ul>
-                    {% for item in site.data.settings.github %}
+                    {% for item in site.data.settings.other %}
                     <li>
                         <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>
