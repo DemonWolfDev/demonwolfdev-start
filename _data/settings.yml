@@ -56,8 +56,9 @@ webtools:
 - {name: 'Corporate Ipsum', url: 'http://www.cipsum.com/'}
 - {name: 'CDN JS', url: 'https://cdnjs.com/'}
 - {name: 'Git Simple Guide', url: 'http://rogerdudler.github.io/git-guide/'}
+- {name: 'Google Fonts', url: 'https://fonts.google.com/'}
 
-others:
+other:
 - {name: Github, url: 'https://www.github.com/'}
 
 #-------------------------------
