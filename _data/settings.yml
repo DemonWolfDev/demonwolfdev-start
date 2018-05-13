@@ -32,7 +32,6 @@ webmaster:
 
 services:
 - {name: 'Vultr', url: 'http://www.vultr.com/?ref=7093526'}
-- {name: 'Logicweb', url: 'https://www.logicweb.com/'}
 - {name: 'Veesp', url: 'https://veesp.com/'}
 - {name: 'Cloud at Cost', url: 'https://panel.cloudatcost.com/login.php'}
 
