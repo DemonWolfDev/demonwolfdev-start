@@ -91,6 +91,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 gulp.task('server', ['jekyll-build'], function () {
   return browserync.init({
     port: config.port,
+    open: false,
     server: {
       baseDir: config.paths.dest,
     }
@@ -112,7 +113,7 @@ gulp.task('sass', function () {
 });
 
 /**
- * Imagemin
+s * Imagemin
  */
 gulp.task('imagemin', function () {
   return gulp.src(paths.imagesSrc + '/**/*')
