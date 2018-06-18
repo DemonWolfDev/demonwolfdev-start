@@ -56,6 +56,10 @@ webtools:
 - {name: 'CDN JS', url: 'https://cdnjs.com/'}
 - {name: 'Git Simple Guide', url: 'http://rogerdudler.github.io/git-guide/'}
 - {name: 'Google Fonts', url: 'https://fonts.google.com/'}
+- {name: 'Offline Google Fonts', url: 'https://google-webfonts-helper.herokuapp.com/fonts'}
+- {name: 'Key Codes', url: 'http://keycode.info/'}
+- {name: 'Tmux shortcuts & cheatsheet',url: 'https://gist.github.com/MohamedAlaa/2961058'}
+- {name: 'Image Hover Gen', url: 'https://miketricking.github.io/bootstrap-image-hover/'}
 
 other:
 - {name: Github, url: 'https://www.github.com/'}
