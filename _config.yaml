@@ -16,7 +16,7 @@
 title: "Start Page"
 email: webmaster@demonwolfdev.com
 description: Start page with Google Seraching and useful resources and links.
-subpatch: "jekyll-startpage" # the subpath of your site, e.g. /blog
+subpatch: "" # the subpath of your site, e.g. /blog
 github_username: mrdemonwolf
 
 # Build settings
